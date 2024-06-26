@@ -42,10 +42,20 @@
   src: url(fonts/SourceSansPro-It.otf);
 }
 
+h1,
+h2,
+h3,
+a,
+p {
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 .jumbotron {
   background: url(images/background.png) fixed center no-repeat;
   background-size: cover;
+  height: 1093px;
 
 }
 
@@ -56,9 +66,13 @@
   font-size: 12px;
 }
 
-.get-schooled h1 {
+.banner h1 {
   font-family: 'Source Sans Pro-Bold';
-  font-size: 120px;
+
+}
+
+.banner button {
+  background-color: #C271FF;
 }
 
 div {
