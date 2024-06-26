@@ -47,3 +47,14 @@
   background: url(images/background.png) fixed center no-repeat;
   background-size: cover;
 }
+
+.navbar-brand a {
+  font-family: 'Source Sans Pro-Bold';
+  font-size: 12px;
+}
+
+
+
+div {
+  border: 1px solid #ddd;
+}
