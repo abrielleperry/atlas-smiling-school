@@ -47,8 +47,10 @@ h2,
 h3,
 a,
 p {
-  font-weight: normal;
-  font-style: normal;
+  font-weight: none;
+  font-style: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 
