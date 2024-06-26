@@ -49,8 +49,8 @@ a,
 p {
   font-weight: none;
   font-style: none;
-  margin: 0px;
-  padding: 0px;
+
+
 }
 
 
@@ -73,8 +73,17 @@ p {
 
 }
 
+.three-words p {
+  font-family: 'Source Sans Pro-Bold';
+
+}
+
 .banner button {
   background-color: #C271FF;
+}
+
+.banner li {
+  text-decoration: none;
 }
 
 div {
