@@ -1,6 +1,4 @@
-header {
-  background-image: url('images/background.png');
-  background-repeat: no-repeat;
+.jumbotron {
+  background: url(images/background.png) fixed center no-repeat;
   background-size: cover;
-  background-position: center;
 }
