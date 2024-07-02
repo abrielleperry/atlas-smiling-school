@@ -136,3 +136,47 @@ blockquote {
   font-family: 'Source Sans Pro-Bold';
   font-size: 22px;
 }
+
+.video h1 {
+  font-family: 'Source Sans Pro-ExtraLight';
+  font-size: 32px;
+  color: #071629;
+}
+
+.video span {
+  font-family: 'Source Sans Pro-Bold';
+  font-size: 32px;
+  color: #C271FF;
+}
+
+.video h2 {
+  font-family: 'Source Sans Pro-Bold';
+  font-size: 16px;
+  color: #071629;
+}
+
+.video p {
+  font-family: 'Source Sans Pro-Regular';
+  font-size: 14px;
+  color: #071629;
+  opacity: 50.16%;
+}
+
+.video h3 {
+  font-family: 'Source Sans Pro-SemiBold';
+  font-size: 16px;
+  color: #C271FF;
+}
+
+.stars-mins p {
+  font-family: 'Source Sans Pro-SemiBold';
+  font-size: 14px;
+  color: #C271FF;
+}
+
+
+
+.stars-mins img {
+  max-width: 15px;
+  max-height: 15px;
+}
