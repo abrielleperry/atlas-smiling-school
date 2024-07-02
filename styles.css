@@ -208,3 +208,7 @@ blockquote {
   font-size: 14px;
   color: #FFFFFF;
 }
+
+.membership-box button {
+  background-color: #C271FF;
+}
