@@ -101,24 +101,49 @@
 
   </header>
   <!--Quote-->
-  <div class="testimonial container-fluid d-flex justify-content-center p-5 mx-auto">
-    <div class="testimonial-box row p-5 align-middle d-flex justify-content-center mx-auto">
-      <div class="col-3">
-        <img class="float-end pe-5" src="images/testimonial_avatar.png" alt="Image 1">
-
+  <div id="testimonialCarousel" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="testimonial container-fluid d-flex justify-content-center p-5 mx-auto">
+          <div class="testimonial-box row p-5 align-middle d-flex justify-content-center mx-auto">
+            <div class="col-3">
+              <img class="float-end pe-5" src="images/testimonial_avatar.png" alt="Image 1">
+            </div>
+            <div class="quote col-7">
+              <blockquote class="row text-white">« Those tutorials are concise and go straight to the point. I can’t
+                think
+                of a better place to learn smiling. And it’s so fun!</blockquote>
+              <p class="row text-white">Person Name</p>
+              <i class="row text-white">weather presenter</i>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="quote col-7">
-        <blockquote class="row text-white">« Those tutorials are concise and go straight to the point. I can’t think
-          of
-          a
-          better
-          place to learn
-          smiling. And it’s
-          so fun!</blockquote>
-        <p class="row text-white">Person Name</p>
-        <i class="row text-white">weather presenter</i>
+      <div class="carousel-item">
+        <div class="testimonial container-fluid d-flex justify-content-center p-5 mx-auto">
+          <div class="testimonial-box row p-5 align-middle d-flex justify-content-center mx-auto">
+            <div class="col-3">
+              <img class="float-end pe-5" src="images/testimonial_avatar.png" alt="Image 1">
+            </div>
+            <div class="quote col-7">
+              <blockquote class="row text-white">« Those tutorials are concise and go straight to the point. I can’t
+                think
+                of a better place to learn smiling. And it’s so fun!</blockquote>
+              <p class="row text-white">Person Name</p>
+              <i class="row text-white">weather presenter</i>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+      <img src="images/arrow_white_left.png" alt="Previous" style="width: 50px; height: 50px;">
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+      <img src="images/arrow_white_right.png" alt="Next" style="width: 50px; height: 50px;">
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 
   <!--Video-->
