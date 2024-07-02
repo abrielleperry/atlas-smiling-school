@@ -246,3 +246,18 @@ blockquote {
   width: 130px;
   height: 30px;
 }
+
+.pricing-banner h1 {
+  font-family: 'Source Sans Pro-Bold';
+  font-size: 32px;
+}
+
+.pricing-smiley {
+  width: 37px;
+  height: 30px;
+}
+
+.pricing-banner span {
+  font-family: 'coiny';
+  font-size: 32px;
+}
