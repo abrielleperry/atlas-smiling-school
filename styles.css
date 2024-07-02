@@ -180,3 +180,31 @@ blockquote {
   max-width: 15px;
   max-height: 15px;
 }
+
+.membership {
+  background-color: #071629;
+}
+
+.free-membership h1 {
+  font-family: 'Source Sans Pro-ExtraLight';
+  font-size: 32px;
+  color: #FFFFFF;
+}
+
+.free-membership span {
+  font-family: 'Source Sans Pro-Bold';
+  font-size: 32px;
+  color: #C271FF;
+}
+
+.smile-onebox h2 {
+  font-family: 'Source Sans Pro-SemiBold';
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.smile-onebox p {
+  font-family: 'Source Sans Pro-Regular';
+  font-size: 14px;
+  color: #FFFFFF;
+}
