@@ -302,3 +302,17 @@ blockquote {
   width: 88px;
   height: 35px;
 }
+
+.pricing-table table tr:nth-child(1),
+.pricing-table table tr:nth-child(2),
+.pricing-table table tr:nth-child(3) {
+  border-top: none;
+  border-bottom: none;
+}
+
+.pricing-table table tr:nth-child(1) td,
+.pricing-table table tr:nth-child(2) td,
+.pricing-table table tr:nth-child(3) td {
+  border-top: none;
+  border-bottom: none;
+}
