@@ -351,13 +351,16 @@ blockquote {
   color: #C271FF;
 }
 
+form {
+  color: #FFFFFF !important;
+}
+
 .input-section {
   background-color: #C271FF;
 }
 
 .form-control {
   background-color: rgba(255, 255, 255, 0.5) !important;
-  color: #FFFFFF;
   border-color: #979797 !important;
   border-radius: 0 !important;
 }
@@ -369,7 +372,13 @@ blockquote {
 
 .input-group-text {
   background-color: rgba(255, 255, 255, 0.5) !important;
-  color: #FFFFFF;
   border-color: #979797 !important;
   border-radius: 0 !important;
+}
+
+.novice-dropdown button {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  border-color: #979797 !important;
+  border-radius: 0 !important;
+  color: #FFFFFF !important;
 }
