@@ -261,3 +261,44 @@ blockquote {
   font-family: 'coiny';
   font-size: 32px;
 }
+
+.go-pro h2 {
+  font-family: 'Source Sans Pro-Bold';
+  font-size: 60px;
+
+}
+
+.table {
+  --bs-table-bg: transparent !important;
+  --bs-table-border-color: #979797 !important;
+  --bs-table-color: #FFFFFF !important;
+  font-family: 'Source Sans Pro-Regular';
+  font-size: 18px;
+}
+
+.table button {
+  background-color: #C271FF;
+}
+
+.money {
+  font-family: 'Source Sans Pro-Bold';
+  font-size: 44px;
+  text-align: center;
+}
+
+.per-mo {
+  font-family: 'Source Sans Pro-Regular';
+  font-size: 12px;
+  text-align: center;
+}
+
+.table img {
+  width: 28px;
+  height: 28px;
+  ;
+}
+
+.signal img {
+  width: 88px;
+  height: 35px;
+}
