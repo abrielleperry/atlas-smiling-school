@@ -402,3 +402,8 @@ form {
 .form-control::placeholder {
   color: #FFFFFF !important;
 }
+
+.novice-dropdown button,
+.popular-dropdown button {
+  width: 100% !important;
+}
