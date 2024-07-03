@@ -441,3 +441,7 @@ form {
   color: #071629;
   opacity: 29%;
 }
+
+::active {
+  color: #C271FF;
+}
