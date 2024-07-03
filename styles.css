@@ -320,3 +320,20 @@ blockquote {
 .bordered-row {
   border-bottom: 1px solid #979797 !important;
 }
+
+.faq-box h1 {
+  font-family: 'Source Sans Pro-Light';
+  font-size: 60px;
+}
+
+.faq-box h2 {
+  font-family: 'Source Sans Pro-Bold';
+  font-size: 16px;
+}
+
+.faq-box p {
+  font-family: 'Source Sans Pro-Regular';
+  font-size: 14px;
+  color: #071629;
+  opacity: 50%;
+}
