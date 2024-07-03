@@ -337,3 +337,16 @@ blockquote {
   color: #071629;
   opacity: 50%;
 }
+
+
+.dont-cry-smile h1 {
+  font-family: 'coiny';
+  font-size: 32px;
+  color: #FFFFFF;
+}
+
+.dont-cry-smile span {
+  font-family: 'coiny';
+  font-size: 32px;
+  color: #C271FF;
+}
