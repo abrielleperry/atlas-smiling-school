@@ -365,9 +365,15 @@ form {
   border-radius: 0 !important;
 }
 
-.input-group-text img {
+.mag-button img {
   width: 20px;
   height: 20px;
+}
+
+.mag-button {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  border-color: #979797 !important;
+  border-radius: 0 !important;
 }
 
 .input-group-text {
@@ -406,4 +412,23 @@ form {
 .novice-dropdown button,
 .popular-dropdown button {
   width: 100% !important;
+}
+
+
+.input-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-section .col-4 {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.input-section p {
+  text-align: start;
+}
+
+.input-section .input-group {
+  width: 100%;
 }
