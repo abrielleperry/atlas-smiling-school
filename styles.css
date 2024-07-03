@@ -316,3 +316,7 @@ blockquote {
   border-top: none;
   border-bottom: none;
 }
+
+.bordered-row {
+  border-bottom: 1px solid #979797 !important;
+}
