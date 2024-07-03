@@ -45,7 +45,6 @@
 h1,
 h2,
 h3,
-a,
 p {
   font-weight: none;
   font-style: none;
@@ -62,12 +61,15 @@ p {
 
 }
 
+.navbar-brand img {
+  width: 169px;
+  height: 30px;
+}
 
 
-.navbar-brand a {
+.nav a {
   font-family: 'Source Sans Pro-Bold';
   font-size: 12px;
-  text-decoration: none;
 }
 
 .banner h1 {
