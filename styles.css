@@ -350,3 +350,26 @@ blockquote {
   font-size: 32px;
   color: #C271FF;
 }
+
+.input-section {
+  background-color: #C271FF;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  color: #FFFFFF;
+  border-color: #979797 !important;
+  border-radius: 0 !important;
+}
+
+.input-group-text img {
+  width: 20px;
+  height: 20px;
+}
+
+.input-group-text {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  color: #FFFFFF;
+  border-color: #979797 !important;
+  border-radius: 0 !important;
+}
