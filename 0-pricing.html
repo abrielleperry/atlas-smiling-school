@@ -28,20 +28,37 @@
   background-size: cover;
   height: 1170px;">
 
-    <nav class="navbar p-4">
+    <nav class="navbar navbar-expand-md p-4">
       <div class="container">
-        <a class="navbar-brand border-0 mx-4" href="0-homepage.html"><img src="images/logo.png" alt="Logo"></a>
-        <ul class="nav nav-underline justify-content-end">
-          <li class="nav-item mx-4">
-            <a href="0-courses.html" class="nav-link text-white">COURSES</a>
-          </li>
-          <li class="nav-item mx-4">
-            <a href="0-pricing.html" class="nav-link active text-white">PRICING</a>
-          </li>
-          <li class="nav-item mx-4">
-            <a href="link" class="nav-link text-white">LOGIN</a>
-          </li>
-        </ul>
+        <div class="d-flex w-100 justify-content-between align-items-center d-md-none">
+          <!-- Hamburger for mobile -->
+          <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="images/hamburger.png" alt="Menu" style="width: 30px; height: 30px;">
+          </button>
+          <!-- Mobile logo -->
+          <div class="mx-auto">
+            <img src="images/mobile-logo.png" alt="Mobile Logo" style="width: 100px; height: auto;">
+          </div>
+        </div>
+        <!-- Desktop logo -->
+        <a class="navbar-brand border-0 mx-4 d-none d-md-block" href="0-homepage.html">
+          <img src="images/logo.png" alt="Logo">
+        </a>
+        <!-- Navbar links  -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto d-md-flex flex-column flex-md-row align-items-center">
+            <li class="nav-item mx-md-4">
+              <a href="0-courses.html" class="nav-link text-white">COURSES</a>
+            </li>
+            <li class="nav-item mx-md-4">
+              <a href="0-pricing.html" class="nav-link active text-white">PRICING</a>
+            </li>
+            <li class="nav-item mx-md-4">
+              <a href="link" class="nav-link text-white">LOGIN</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
