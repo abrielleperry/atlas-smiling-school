@@ -443,6 +443,7 @@ form {
   opacity: 29%;
 }
 
+/* For screens 375px or less (mobile) */
 @media (max-width: 375px) {
   .four-pros .col-custom {
     flex: 0 0 50%;
@@ -450,21 +451,16 @@ form {
   }
 }
 
+/*  376px to 768px (tablets) */
 @media (min-width: 376px) and (max-width: 768px) {
   .four-pros .col-custom {
-    flex: 0 0 25%;
-    max-width: 25%;
+    flex: 0 0 50%;
+    max-width: 50%;
   }
 }
 
-@media (min-width: 769px) and (max-width: 1440px) {
-  .four-pros .col-custom {
-    flex: 0 0 25%;
-    max-width: 25%;
-  }
-}
-
-@media (min-width: 1441px) {
+/* For screens 769px and above (desktop) */
+@media (min-width: 769px) {
   .four-pros .col-custom {
     flex: 0 0 25%;
     max-width: 25%;
