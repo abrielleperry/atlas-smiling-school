@@ -14,3 +14,7 @@ In this project, I implemented three web pages using Bootstrap. I applied HTML, 
 -   **Bootstrap Usage**: Utilized the Bootstrap framework for the majority of the styling and layout.
 -   **Minimal Custom CSS**: Kept the  `styles.css`  file as small as possible by leveraging Bootstrap classes extensively.
 -   **Design Fidelity**: Ensured that the web pages looked the same as the provided designer file.
+
+
+## Provided Designer File
+This webpage has been designed by Nicolas Philippot, UI/UX designer. You can find final screens [here](https://intranet-projects-files.s3.amazonaws.com/holbertonschool-webstack/623/Archive.zip)
